@@ -10,7 +10,8 @@ Features
 Requirements
 Install the required Python packages using:
 bash
-pip install -r requirements.txt
+pip install -r 
+requirements.txt
 
 Project Structure
 -yolopvt/               

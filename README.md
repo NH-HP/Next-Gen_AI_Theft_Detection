@@ -17,7 +17,7 @@ Project Structure
 -yolopvt/               
 -README.md              
 -.gitignore             
-- requirements.txt
+-requirements.txt
        
 Usage:
 To run the detection on a video:

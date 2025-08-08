@@ -1,29 +1,21 @@
-Theft Detection using YOLO + PVT
-This project is a real-time theft detection system using a combination of YOLO (You Only Look Once) and PVT (Pyramid Vision Transformer). It is capable of detecting suspicious activity in video streams or from CCTV footage.
+## Overview
 
-Features
-- Real-time detection using YOLO + PVT
-- Works with webcam or pre-recorded video
-- Modular and easy-to-read code
-- Supports `.mp4` input files
-  
-Requirements
-Install the required Python packages using:
-bash
-pip install -r 
-requirements.txt
+This project is a real-time Theft Detection system that combines YOLO (You Only Look Once) and PVT (Pyramid Vision Transformer) to detect suspicious activities from video streams or CCTV footage. It supports live webcam input as well as pre-recorded video files for effective monitoring and alerting.
 
-Project Structure
--yolopvt/               
--README.md              
--.gitignore             
--requirements.txt
-       
-Usage:
-To run the detection on a video:
-bash
-python main.py --video path/to/video.mp4
-Or use your webcam:
-bash
-python main.py --webcam
+<hr style="border: 2px solid black;">
+
+## Features
+
+- **Real-time Detection:** Uses YOLO + PVT for fast and accurate theft detection.  
+- **Multiple Input Sources:** Supports webcam streams and .mp4 video files.  
+- **Modular Code:** Easy to understand and extend.  
+- **Video Support:** Can process both live and pre-recorded videos for flexible use.  
+
+<hr style="border: 2px solid black;">
+
+## Technology Stack
+
+- **Backend:** Python, PyTorch  
+- **Computer Vision:** YOLO, Pyramid Vision Transformer (PVT)  
+- **Input:** Webcam, Video Files (.mp4)  
 

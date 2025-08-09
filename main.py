@@ -104,7 +104,7 @@ while True:
         print("Alarm stopped.")
         pygame_alarm_playing = False
 
-    # Draw polygon
+    
     if len(pts) >= 3:
         cv2.polylines(frame, [np.array(pts, np.int32)], isClosed=True, color=(0, 255, 0), thickness=2)
 
